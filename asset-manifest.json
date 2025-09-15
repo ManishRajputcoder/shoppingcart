@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ManishRajputcoder/shoppingcart.git/static/css/main.5fc8063b.css",
-    "main.js": "/ManishRajputcoder/shoppingcart.git/static/js/main.c7d33614.js",
-    "static/js/453.116f6eb2.chunk.js": "/ManishRajputcoder/shoppingcart.git/static/js/453.116f6eb2.chunk.js",
-    "index.html": "/ManishRajputcoder/shoppingcart.git/index.html",
-    "main.5fc8063b.css.map": "/ManishRajputcoder/shoppingcart.git/static/css/main.5fc8063b.css.map",
-    "main.c7d33614.js.map": "/ManishRajputcoder/shoppingcart.git/static/js/main.c7d33614.js.map",
-    "453.116f6eb2.chunk.js.map": "/ManishRajputcoder/shoppingcart.git/static/js/453.116f6eb2.chunk.js.map"
+    "main.css": "/shoppingcart.git/static/css/main.5fc8063b.css",
+    "main.js": "/shoppingcart.git/static/js/main.bce49e9e.js",
+    "static/js/453.116f6eb2.chunk.js": "/shoppingcart.git/static/js/453.116f6eb2.chunk.js",
+    "index.html": "/shoppingcart.git/index.html",
+    "main.5fc8063b.css.map": "/shoppingcart.git/static/css/main.5fc8063b.css.map",
+    "main.bce49e9e.js.map": "/shoppingcart.git/static/js/main.bce49e9e.js.map",
+    "453.116f6eb2.chunk.js.map": "/shoppingcart.git/static/js/453.116f6eb2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fc8063b.css",
-    "static/js/main.c7d33614.js"
+    "static/js/main.bce49e9e.js"
   ]
 }
