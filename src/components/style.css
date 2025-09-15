@@ -1,0 +1,119 @@
+/* CART DROPDOWN */
+.cartitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 20px;
+}
+
+.cartItemImg {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cartItemDetail {
+  display: flex;
+  flex: 1;
+  padding: 0 20px;
+  flex-direction: column;
+}
+
+/* HOME PAGE LAYOUT */
+.home {
+  display: flex;
+  flex-wrap: wrap; /* stack filters below on small screens */
+  gap: 20px;
+}
+
+/* FILTERS PANEL */
+.filters {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  min-width: 250px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.filters > span {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.productContainer {
+  display: flex;
+  width: calc(80% - 20px);
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.products {
+  flex: 1 1 250px; /* each card at least 250px */
+  max-width: 300px;
+  margin: 10px;
+}
+
+/* SUMMARY PANEL (Cart page) */
+.summary {
+  width: 30%;
+}
+
+/* PRODUCT IMAGES */
+.products img {
+  height: 200px;
+  object-fit: contain;
+  width: 100%;
+}
+
+/* ========== RESPONSIVE BREAKPOINTS ========== */
+@media (max-width: 992px) {
+  /* Tablets */
+  .filters {
+    width: 30%;
+  }
+  .productContainer {
+    width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Mobiles */
+  .home {
+    flex-direction: column;
+  }
+
+  .filters {
+    width: 100%;
+    order: 2; /* filters below product list */
+    margin: 0;
+  }
+
+  .productContainer {
+    width: 100%;
+    order: 1;
+    padding: 0;
+  }
+
+  .products {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin: 5px 0;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .search {
+    display: none !important; /* hide long search bar on small screens */
+  }
+}
